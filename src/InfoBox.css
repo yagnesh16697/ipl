@@ -1,0 +1,25 @@
+.infoBox {
+  flex: 1;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+.h4 {
+  padding: 5px;
+  color: grey;
+}
+.h4 {
+  padding: 5px;
+}
+@media (max-width: 600px) {
+  .infoBox {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .infoBox {
+    margin-bottom: 10px;
+  }
+}
